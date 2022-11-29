@@ -9,7 +9,7 @@ const port = 8080
 app.get('/', (req, res) => {
   res.send(
     `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello AWS version 2 ${os.hostname()}</h1>
-    <h2>version 3</h2>
+    <h2>version 4</h2>
     </body>`
   )
 })
